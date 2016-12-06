@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Bolt - Free Bootstrap 3 Theme</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="assets/js/chart.js"></script>
+
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.png"/>
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#HowItWorks">How It Works</a></li>
+                        <li><a href="#PostACase">Post a case</a></li>
+                        <li class="active"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+
+
+        <div id="front-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Find a Lawyer for your Legal Issue</h1>
+                        <h2>Fast, Free and Confidential</h2>
+                    </div><!-- /col-lg-8 -->
+                    <div class="col-md-6">
+                        <form>
+                            <label for="location">Enter Zip Code or City:</label>
+                            <div class="list-group-item input-group">
+                                <span class="badge">1</span>
+                                <input name="category" type="text" class="form-control" placeholder="Does not have to be where you live" aria-describedby="basic-addon1">
+                            </div>
+                            <label for="location">Choose a category:</label>
+                            <div class="list-group-item input-group">
+                                <span class="badge">2</span>
+                                <select class="form-control">
+                                    <option>Family</option>
+                                    <option>Criminal Defense</option>
+                                    <option>Business</option>
+                                    <option>Personal Injury</option>
+                                </select>
+                            </div>
+                            <a href='#' data-toggle="modal" data-target="#other_categories">Can't find your category? Click Here.</a>
+                            <!-- Modal -->
+
+                        </form>
+                    </div>
+                    <div class='col-md-6' id="reviews">
+                        <h3>Client review LegalMatch lawyers</h3> 
+                        <ul class="list-group">
+                            <li class="list-group-item review-item">
+                                <div class="row">
+                                    <div class="col-md-4 text-center left">
+                                        <img class="img img-circle" src="assets/img/profile-mitchell.png" alt=""/>
+                                        <h5>Mitchell M.</h5>
+                                        <h6>Cherry Hill. NJ</h6>
+                                    </div>
+                                    <div class="col-md-8 right">
+                                        <div class="row">
+                                            <div class="header-info">
+                                                <b id="category">Family Law</b>
+                                                <div id="ratings">
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                </div>
+                                            </div>
+                                            <div class="body-info">
+                                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip” </p>
+                                                <a href="#">READ MORE
+                                                    <img src="assets/img/icon-book.png" alt=""/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item review-item">
+                                <div class="row">
+                                    <div class="col-md-4 text-center left">
+                                        <img class="img img-circle" src="assets/img/profile-mitchell.png" alt=""/>
+                                        <h5>Mitchell M.</h5>
+                                        <h6>Cherry Hill. NJ</h6>
+                                    </div>
+                                    <div class="col-md-8 right">
+                                        <div class="row">
+                                            <div class="header-info">
+                                                <b id="category">Family Law</b>
+                                                <div id="ratings">
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                </div>
+                                            </div>
+                                            <div class="body-info">
+                                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip” </p>
+                                                <a href="#">READ MORE
+                                                    <img src="assets/img/icon-book.png" alt=""/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item review-item">
+                                <div class="row">
+                                    <div class="col-md-4 text-center left">
+                                        <img class="img img-circle" src="assets/img/profile-mitchell.png" alt=""/>
+                                        <h5>Mitchell M.</h5>
+                                        <h6>Cherry Hill. NJ</h6>
+                                    </div>
+                                    <div class="col-md-8 right">
+                                        <div class="row">
+                                            <div class="header-info">
+                                                <b id="category">Family Law</b>
+                                                <div id="ratings">
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                    <i class="glyphicon glyphicon-star" style="color:yellow"></i>
+                                                </div>
+                                            </div>
+                                            <div class="body-info">
+                                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ... dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip” </p>
+                                                <a href="#">READ MORE
+                                                    <img src="assets/img/icon-book.png" alt=""/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- /row -->
+            </div> <!-- /container -->
+        </div><!-- /hello -->
+
+
+
+
+
+        <section id="contact"></section>
+        <div id="footer-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="col-md-3">
+                            <img src="assets/img/logo.png" alt="" class="img img-responsive"/>
+                            <p class="text-muted" style="font-size: 12px;">LegalMatch quickly connects you with the right lawyer for your case.</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p><b>Menu</b></p>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">About</a>
+                                <a href="#" class="list-group-item">How it works</a>
+                                <a href="#" class="list-group-item">Post a Case</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <p><b>Links</b></p>
+                            <div class="list-group">
+                                <a href="#" class="list-group-item">User Agreement</a>
+                                <a href="#" class="list-group-item">Privacy Policy</a>
+                                <a href="#" class="list-group-item">Site Map</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p><b>Contact Us</b></p>
+                            <p>Want to tell us about your case and find a lawyer by phone?</p>
+                            <p><b>Call: 415-946-0816</b></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img logo" src="assets/img/footer-truste.png"alt=""/>
+                        <img class="img logo" src="assets/img/footer-bbb.png"alt=""/>
+                    </div>
+                </div>
+            </div><!-- /container -->
+        </div><!-- /social -->
+
+
+        <div id="f">
+            <div class="container">
+                <div class="row">
+                    <p>Crafted with <i class="fa fa-heart"></i> by BlackTie.co.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Modals -->
+        <div class="modal fade" id="other_categories" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <h3>OTHER CATEGORIES</h3>
+                        <p>Choose the category that best fts your case</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <a href="#">Abuse (Child, Domesticc, Sexual)</a>
+                                <a href="#">Agencies & Administration</a>
+                                <a href="#">Automobile (DUI, Crimes, Speeding)</a>
+                                <a href="#">Automobiles Accidents, Insurance)</a>
+                                <a href="#">Banking (Business, Consumer)</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="#">Loremipsum Dolorsitamet,</a>
+                                <a href="#">Lonsectetur Scingelit  (Baseererkj, Mereit)</a>
+                                <a href="#">Miam Euvelit</a>
+                                <a href="#">Mempor Auctor (Estiarma, Toeruslej)</a>
+                                <a href="#">Nisultricies Dictumest.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Modals -->
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/bootstrap.js"></script>
+    </body>
+</html>

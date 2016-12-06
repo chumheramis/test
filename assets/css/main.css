@@ -1,0 +1,258 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Bolt - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+    margin-top: 40px;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Bootstrap Modifications */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #74cfae;
+}
+
+.navbar-brand {
+    font-size: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.btn-theme {
+    color: #ffffff;
+    background-color: #74cfae;
+    border-color: transparent;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    border: 5px solid transparent;
+    border-radius: 0px;
+}
+
+.lead {
+    letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* hello */
+#front-content {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/front-content-bg.png);
+}
+
+#front-content h1 {
+    font-size: 42px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+#front-content h2 {
+    color: #fff;
+    font-size:30px;
+    font-weight: bold;
+}
+#front-content h3{
+    color:#fff;
+    font-size: 20px;
+}
+#front-content a{
+    color: #fff;
+}
+
+#front-content form label{
+    color: #fff;
+}
+#front-content .input-group{
+    border-radius: 25px;
+}
+#front-content .input-group > .badge {
+    position: absolute;
+    left: 11px;
+    top: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    padding-top: 9px;
+    background-color:#d68d00;
+}
+#front-content .input-group .form-control {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    margin-left: 35px;
+    width: 90%;
+}
+#reviews{
+    margin-top: -25px;
+}
+#reviews .review-item{
+    background-color: transparent;
+    border: none;
+}
+#reviews .review-item .left h5{
+    font-size: 13px;
+    line-height: 5px;
+    color: #fff;
+}
+#reviews .review-item .left h6{
+    font-size: 11px;
+    line-height: 5px;
+    color: #fff;
+
+}
+#reviews .review-item .right .header-info{
+    float: left;
+}
+#reviews .review-item .right .header-info #category{
+    float:left;
+    margin-right: 30px;
+    color: #fff;
+}
+
+#reviews .review-item .right .header-info #ratings{
+    float: left;
+}
+#reviews .review-item .right .body-info{
+    float: left;
+}
+#reviews .review-item .right .body-info p{
+    font-size: 11px;
+    line-height: 13px;  
+    color: #fff;
+}
+#reviews .review-item .right .body-info a{
+    color: #fbd243;
+    float: right;
+    margin-right: 25px;
+    font-size: 10px;
+}
+#reviews .review-item .right .body-info a img{
+    margin-top: -3px;
+}
+/* Social Links */
+#footer-head {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+#footer-head .logo{
+    width: 100%;
+    margin-bottom: 35px;
+}
+#footer-head i {
+    font-size: 50px;
+    color: #74cfae;
+}
+/* Footer */
+#f {
+    padding-top: 20px;
+    background-color: #74cfae;
+}
+
+#f p {
+    color: white;
+    text-align: right;
+    font-weight: 400;
+}
+
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
